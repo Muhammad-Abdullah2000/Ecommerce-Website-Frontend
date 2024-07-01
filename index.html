@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+    <div class="topnav" id="myTopnav">
+
+
+        <div class="first">
+            <div class="f1">
+                <h1>Store</h1>
+            </div>
+
+            <div class="f2">
+                <input type="search" placeholder="Search for a product">
+                <i class='bx bx-search'></i>
+
+            </div>
+
+            <div class="f3">
+
+                <div class="login">
+                    <i class='bx bx-user'></i>
+                    <a href="./SiginUp.html"><p>Login</p></a>
+                </div>
+
+                <div class="favorite">
+                    <i class='bx bx-heart'></i>
+                    <p>Favorite</p>
+                </div>
+
+                <div class="cart">
+                    <i class='bx bx-cart'></i>
+                    <a href="./Cart.html"><p>Cart</p></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="index.html" class="dropbtn">All Categories</a> 
+        </div>
+
+        <a href="./Prodcuts.html" class="active">Products</a>
+        <a href="./AboutUs.html">About Us</a>
+        
+
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+
+    <hr id="hr">
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+
+                <div class="con1">
+                    <div class="left">
+                        <div class="l1">
+                            <h1>Easy, Fresh, & Convinient</h1>
+                        </div>
+
+                        <div class="l2">
+                            <h1>Lorem ipsum <br> dolor sit amet consectetur</h1>
+                        </div>
+
+                        <div class="l3">
+                            <button>Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="./img1.jpg" alt="Product Image">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-slide">
+
+                <div class="con1">
+                    <div class="left">
+                        <div class="l1">
+                            <h1>Easy, Fresh, & Convinient</h1>
+                        </div>
+
+                        <div class="l2">
+                            <h1>Lorem ipsum <br> dolor sit amet consectetur</h1>
+                        </div>
+
+                        <div class="l3">
+                            <button>Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="./img1.jpg" alt="Product Image">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-slide">
+
+                <div class="con1">
+                    <div class="left">
+                        <div class="l1">
+                            <h1>Easy, Fresh, & Convinient</h1>
+                        </div>
+
+                        <div class="l2">
+                            <h1>Lorem ipsum <br> dolor sit amet consectetur</h1>
+                        </div>
+
+                        <div class="l3">
+                            <button>Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                        <img src="./img1.jpg" alt="Product Image">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="container3">
+
+        <div class="shop">
+            <h2>Shop By Categories</h2>
+        </div>
+
+        <div class="slide">
+
+            <div class="card">
+                <div class="carimg">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+                <div class="buybtn">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="carimg">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+                <div class="buybtn">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="carimg">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+                <div class="buybtn">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="carimg">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+                <div class="buybtn">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container4">
+
+        <div class="best_deals">
+            <h2>Best Deals</h2>
+        </div>
+
+        <div class="best_deals_card">
+
+            <div class="best_deals_cards">
+                <div class="best_deals_cards_img">
+                    <img src="./img1.jpg" alt="Product image">
+                </div>
+
+                <div class="details">
+                    <p id="best_deal_p">best deal</p>
+                    <p id="best_deal_lorem">Lorem, ipsum <span id="best_deal_lorem_d">only 1 left</span></p>
+                    <p id="best_deal_lorem">$399.50 <span id="best_deal_lorem_d">$399.50</span></p>
+                </div>
+
+
+                <div class="add_to_cart">
+                    <button>Add to Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+
+
+            </div>
+
+            <div class="best_deals_cards">
+                <div class="best_deals_cards_img">
+                    <img src="./img1.jpg" alt="Product image">
+                </div>
+
+                <div class="details">
+                    <p id="best_deal_p">best deal</p>
+                    <p id="best_deal_lorem">Lorem, ipsum <span id="best_deal_lorem_d">only 1 left</span></p>
+                    <p id="best_deal_lorem">$399.50 <span id="best_deal_lorem_d">$399.50</span></p>
+                </div>
+
+
+                <div class="add_to_cart">
+                    <button>Add to Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+
+
+            </div>
+
+            <div class="best_deals_cards">
+
+                <div class="best_deals_cards_img">
+                    <img src="./img1.jpg" alt="Product image">
+                </div>
+
+                <div class="details">
+                    <p id="best_deal_p">best deal</p>
+                    <p id="best_deal_lorem">Lorem, ipsum <span id="best_deal_lorem_d">only 1 left</span></p>
+                    <p id="best_deal_lorem">$399.50 <span id="best_deal_lorem_d">$399.50</span></p>
+                </div>
+
+
+                <div class="add_to_cart">
+                    <button>Add to Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="best_deal_container">
+
+
+
+            <div class="best_deal_container_card">
+                <img src="./img1.1.png" alt="Product Image">
+                <p id="holiday_deals">Holiday Deals</p>
+                <h1 id="holiday_deals_Upto">Up To</h1>
+                <h1 id="holiday_deals_Upto_30">30% off</h1>
+                <p id="Seleted_Brands_For_You">Seleted Brands For You</p>
+                <button id="holiady_btn">Shop Now</button>
+
+            </div>
+
+            <div class="best_deal_container_card">
+                <img src="./img1.1.png" alt="Product Image">
+                <p id="holiday_deals">Deal of The Weak</p>
+                <h1 id="holiday_deals_Upto">40%</h1>
+                <h1 id="holiday_deals_Upto_30">off</h1>
+                <p id="Seleted_Brands_For_You">All Cleaning Supplies</p>
+                <button id="holiady_btn">Shop Now</button>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="Most_Popular">
+        <div class="Most_Popular_Heading">
+            <h1>Most Popular</h1>
+        </div>
+
+        <div class="Most_Popular_cards">
+            <div class="Most_Popular_card">
+
+                <div class="Most_Popular_card_image">
+                    <img src="./img1.jpg" alt="">
+                </div>
+
+                <div class="Most_Popular_details">
+                    <p id="Most_Popular_p">Most Popular deal</p>
+                    <p id="Most_Popular_lorem">Lorem, ipsum <span id="Most_Popular_lorem_d">only 1 left</span></p>
+                    <p id="Most_Popular_lorem">$399.50 <span id="Most_Popular_lorem_d">$399.50</span></p>
+
+                </div>
+
+                <div class="Most_Popular_btn">
+                    <button>Add To Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+            </div>
+
+            <div class="Most_Popular_card">
+
+                <div class="Most_Popular_card_image">
+                    <img src="./img1.jpg" alt="">
+                </div>
+
+                <div class="Most_Popular_details">
+                    <p id="Most_Popular_p">Most Popular deal</p>
+                    <p id="Most_Popular_lorem">Lorem, ipsum <span id="Most_Popular_lorem_d">only 1 left</span></p>
+                    <p id="Most_Popular_lorem">$399.50 <span id="Most_Popular_lorem_d">$399.50</span></p>
+
+                </div>
+
+                <div class="Most_Popular_btn">
+                    <button>Add To Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+            </div>
+
+            <div class="Most_Popular_card">
+
+                <div class="Most_Popular_card_image">
+                    <img src="./img1.jpg" alt="">
+                </div>
+
+                <div class="Most_Popular_details">
+                    <p id="Most_Popular_p">Most Popular deal</p>
+                    <p id="Most_Popular_lorem">Lorem, ipsum <span id="Most_Popular_lorem_d">only 1 left</span></p>
+                    <p id="Most_Popular_lorem">$399.50 <span id="Most_Popular_lorem_d">$399.50</span></p>
+
+                </div>
+
+                <div class="Most_Popular_btn">
+                    <button>Add To Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container5">
+        <div class="Every_Day_Essentials_heading">
+            <h1>Every Day Essential</h1>
+        </div>
+
+        <div class="ed_cards">
+
+            <div class="ed_card">
+
+                <div class="ed_card_left">
+                    <div class="ed_card_left_deatils">
+                        <p id="Weakend_Discount">Weakend Discount</p>
+                        <p id="Weakend_Discount_Lorem">Lorem, ipsum
+                        </p>
+                        <p id="Weakend_Discount_Every_Day">Every Day
+                        </p>
+
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="ed_card_right">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+            </div>
+
+            <div class="ed_card">
+
+                <div class="ed_card_left">
+                    <div class="ed_card_left_deatils">
+                        <p id="Weakend_Discount">Weakend Discount</p>
+                        <p id="Weakend_Discount_Lorem">Lorem, ipsum
+                        </p>
+                        <p id="Weakend_Discount_Every_Day">Every Day
+                        </p>
+
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="ed_card_right">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+            </div>
+
+            <div class="ed_card">
+
+                <div class="ed_card_left">
+                    <div class="ed_card_left_deatils">
+                        <p id="Weakend_Discount">Weakend Discount</p>
+                        <p id="Weakend_Discount_Lorem">Lorem, ipsum
+                        </p>
+                        <p id="Weakend_Discount_Every_Day">Every Day
+                        </p>
+
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="ed_card_right">
+                    <img src="./img1.jpg" alt="Product Image">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Most_Popular">
+        <div class="Most_Popular_Heading">
+            <h1>Featured Products</h1>
+        </div>
+
+        <div class="Most_Popular_cards">
+            <div class="Most_Popular_card">
+
+                <div class="Most_Popular_card_image">
+                    <img src="./img1.jpg" alt="">
+                </div>
+
+                <div class="Most_Popular_details">
+                    <p id="Most_Popular_p">Featured Product deal</p>
+                    <p id="Most_Popular_lorem">Lorem, ipsum <span id="Most_Popular_lorem_d">only 1 left</span></p>
+                    <p id="Most_Popular_lorem">$399.50 <span id="Most_Popular_lorem_d">$399.50</span></p>
+
+                </div>
+
+                <div class="Most_Popular_btn">
+                    <button>Add To Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+            </div>
+
+            <div class="Most_Popular_card">
+
+                <div class="Most_Popular_card_image">
+                    <img src="./img1.jpg" alt="">
+                </div>
+
+                <div class="Most_Popular_details">
+                    <p id="Most_Popular_p">Most Popular deal</p>
+                    <p id="Most_Popular_lorem">Lorem, ipsum <span id="Most_Popular_lorem_d">only 1 left</span></p>
+                    <p id="Most_Popular_lorem">$399.50 <span id="Most_Popular_lorem_d">$399.50</span></p>
+
+                </div>
+
+                <div class="Most_Popular_btn">
+                    <button>Add To Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+            </div>
+
+            <div class="Most_Popular_card">
+
+                <div class="Most_Popular_card_image">
+                    <img src="./img1.jpg" alt="">
+                </div>
+
+                <div class="Most_Popular_details">
+                    <p id="Most_Popular_p">Most Popular deal</p>
+                    <p id="Most_Popular_lorem">Lorem, ipsum <span id="Most_Popular_lorem_d">only 1 left</span></p>
+                    <p id="Most_Popular_lorem">$399.50 <span id="Most_Popular_lorem_d">$399.50</span></p>
+
+                </div>
+
+                <div class="Most_Popular_btn">
+                    <button>Add To Cart</button>
+                    <i class='bx bx-heart'></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+
+            <div class="icons">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-gmail'></i>
+            </div>
+
+
+        </div>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+        </div>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+    </script>
+</body>
+
+</html>

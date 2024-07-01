@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loginCard{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginCardItem{
+   
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.loginHeading{
+   
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+   
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginForm form{
+   
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.loginForm form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    
+    background-color: transparent;
+    color: black;
+    border: none;
+    border: 1px solid gray;
+}
+
+.loginForm form p{
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.loginForm form a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm form button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account{
+   
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    color:  rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.account a{
+    text-decoration: none;
+}
+
+.OR{
+  
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    color: gray;
+}
+
+.socialbtns{
+  
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.socialbtns #facebook{
+    width: 90%;
+    height: 40px;
+    background-color: #1877F2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.facebookicon{
+   
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.facebookicon i{
+
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #1877F2;
+}
+
+.googleicon{
+  
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.googleicon i{
+  
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  
+}
+
+#google{
+    width: 90%;
+    height: 40px;
+    
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#log{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+ .loginCardItem{
+    width: 95%;
+ }
+}

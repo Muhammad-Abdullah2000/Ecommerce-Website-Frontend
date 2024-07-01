@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cart.css">
+    <link rel="stylesheet" href="components.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+    <div class="topnav" id="myTopnav">
+
+
+        <div class="first">
+            <div class="f1">
+                <h1>Store</h1>
+            </div>
+
+            <div class="f2">
+                <input type="search" placeholder="Search for a product">
+                <i class='bx bx-search'></i>
+
+            </div>
+
+            <div class="f3">
+
+                <div class="login">
+                    <i class='bx bx-user'></i>
+                    <a href="./SiginUp.html"><p>Login</p></a>
+                </div>
+
+                <div class="favorite">
+                    <i class='bx bx-heart'></i>
+                    <p>Favorite</p>
+                </div>
+
+                <div class="cart">
+                    <i class='bx bx-cart'></i>
+                    <a href="./Cart.html"><p>Cart</p></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="index.html" class="dropbtn">All Categories</a> 
+        </div>
+
+        <a href="./Prodcuts.html" class="active">Products</a>
+        <a href="./AboutUs.html">About Us</a>
+        
+
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+
+
+
+
+    <div class="cartHeading">
+        <h1>Your Cart Items</h1>
+    </div>
+
+    <div class="cartcontainer">
+
+
+        <div id="cart1">
+
+            <div class="cart-item" data-product-id="1">
+                <img src="./img1.jpg" alt="">
+
+
+
+                <span class="product-name">Gaming Laptop</span>
+
+                <div class="inc">
+                    <button class="quantity-btn" onclick="decrementQuantity(1), decrement('quantity') ">-</button>
+                    <span class="quantity">0</span>
+                    <button class="quantity-btn" onclick="incrementQuantity(1),increment('quantity')">+</button>
+                </div>
+
+                <div class="p">
+                    <span id="price">$469.00 </span>
+                </div>
+                
+
+                <span class="remove-btn" onclick="removeItem(1)"><i class='bx bx-x'></i></span>
+            </div>
+
+           
+
+        </div>
+
+        <div id="cart1">
+
+            <div class="cart-item" data-product-id="1">
+                <img src="./img1.jpg" alt="">
+
+
+
+                <span class="product-name">Gaming Laptop</span>
+
+                <div class="inc">
+                    <button class="quantity-btn" onclick="decrementQuantity(1), decrement('quantity') ">-</button>
+                    <span class="quantity">0</span>
+                    <button class="quantity-btn" onclick="incrementQuantity(1),increment('quantity')">+</button>
+                </div>
+
+                <div class="p">
+                    <span id="price">$469.00 </span>
+                </div>
+                
+
+                <span class="remove-btn" onclick="removeItem(1)"><i class='bx bx-x'></i></span>
+            </div>
+
+           
+
+        </div>
+
+        <div id="cart1">
+
+            <div class="cart-item" data-product-id="1">
+                <img src="./img1.jpg" alt="">
+
+
+
+                <span class="product-name">Gaming Laptop</span>
+
+                <div class="inc">
+                    <button class="quantity-btn" onclick="decrementQuantity(1), decrement('quantity') ">-</button>
+                    <span class="quantity">0</span>
+                    <button class="quantity-btn" onclick="incrementQuantity(1),increment('quantity')">+</button>
+                </div>
+
+                <div class="p">
+                    <span id="price">$469.00 </span>
+                </div>
+                
+
+                <span class="remove-btn" onclick="removeItem(1)"><i class='bx bx-x'></i></span>
+            </div>
+
+           
+
+        </div>
+
+
+        <div id="cart1">
+
+            <div class="cart-item" data-product-id="1">
+                <img src="./img1.jpg" alt="">
+
+
+
+                <span class="product-name">Gaming Laptop</span>
+
+                <div class="inc">
+                    <button class="quantity-btn" onclick="decrementQuantity(1), decrement('quantity') ">-</button>
+                    <span class="quantity">0</span>
+                    <button class="quantity-btn" onclick="incrementQuantity(1),increment('quantity')">+</button>
+                </div>
+
+                <div class="p">
+                    <span id="price">$469.00 </span>
+                </div>
+                
+
+                <span class="remove-btn" onclick="removeItem(1)"><i class='bx bx-x'></i></span>
+            </div>
+
+           
+
+        </div>
+
+        <div class="checkout"> 
+            <div class="checkoutFirst">
+                <h3>Subtotal:</h3>
+                <span id="price2">$0</span>
+            </div>
+
+            <div class="checkoutFirst">
+                <h3>SalesTax:</h3>
+                <span id="price3">$0</span>
+            </div>
+
+            <div class="checkoutFirst">
+                <h3>Coupon code:</h3>
+                <p>Add Coupon</p>
+            </div>
+
+            <div class="checkoutFirst">
+                <h3>Grand Total:</h3>
+                <h1 id="price4">$0</h1>
+            </div>
+
+            <div class="checkoutbtn">
+                <button><a href="./checout.html" id="check">Checkout</a></button>
+            </div>
+        </div> 
+
+    </div>
+
+
+    <footer>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+
+            <div class="icons">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-gmail'></i>
+            </div>
+
+
+        </div>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+        </div>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+
+
+        function increment(elementClass) {
+            const element = document.getElementsByClassName(elementClass);
+            let value = parseInt(element.innerText);
+            value++;
+            element.innerText = value;
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price += 469.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price2');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price += 469.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price3');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price += 10.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price4');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price += 479.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+        }
+
+        function decrement(elementClass) {
+            const element = document.getElementsByClassName(elementClass);
+            let value = parseInt(element.innerText);
+            value++;
+            element.innerText = value;
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price -= 469.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price2');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price -= 469.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price3');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price -= 10.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+
+            if (elementClass === 'quantity') {
+                const priceElement = document.getElementById('price4');
+                let price = parseFloat(priceElement.innerText.slice(1));
+                price -= 10.00;
+                priceElement.innerText = '$' + price.toFixed(2);
+            }
+        }
+
+
+        function incrementQuantity(productId) {
+            updateQuantity(productId, 1);
+
+        }
+
+        function decrementQuantity(productId) {
+            updateQuantity(productId, -1);
+        }
+
+        function updateQuantity(productId, change) {
+            var cartItem = document.querySelector('[data-product-id="' + productId + '"]');
+            var quantityElement = cartItem.querySelector('.quantity');
+            var quantity = parseInt(quantityElement.textContent);
+            quantity += change;
+
+            if (quantity >= 0) {
+                quantityElement.textContent = quantity;
+
+                
+                if (quantity === 0) {
+                    removeItem(productId);
+                }
+            }
+        }
+
+        function removeItem(productId) {
+            var cartItem = document.querySelector('[data-product-id="' + productId + '"]');
+            if (cartItem) {
+                cartItem.remove();
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>

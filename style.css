@@ -1,0 +1,1229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.first {
+
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first .f1 {
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+}
+
+.first .f2 {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+
+}
+
+.first .f2 input {
+    width: 400px !important;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: none;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.first .f2 i {
+    background-color: rgb(255, 255, 255);
+    height: 37.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+
+
+}
+
+.first .f3 {
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    gap: 20px;
+}
+
+.first .f3 .login {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 5vh;
+    width: 25%;
+    cursor: pointer;
+}
+
+.first .f3 .login i {
+    font-size: 20px;
+}
+
+.first .f3 .favorite {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 5vh;
+    width: 25%;
+    cursor: pointer;
+}
+
+.first .f3 .favorite i {
+    font-size: 20px;
+}
+
+.first .f3 .cart {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 5vh;
+    width: 25%;
+    cursor: pointer;
+}
+
+.first .f3 .cart i {
+    font-size: 20px;
+}
+
+
+
+.topnav {
+    /* background-color: #636363; */
+    overflow: hidden;
+    height: 20vh;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.active {
+
+    color: rgb(0, 0, 0);
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+
+.dropdown {
+    float: left;
+    margin-left: 100px;
+    width: 160px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(122, 122, 122);
+    border-radius: 10px;
+    color: white;
+}
+
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    color: white;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 60%;
+
+
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.con1 .left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.con1 .left .l1 {
+    height: 10vh;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin-top: -400px;
+}
+
+.con1 .left .l1 h1 {
+    font-size: 30px;
+}
+
+.con1 .left .l2 {
+    width: 65%;
+}
+
+.con1 .left .l3 {
+    width: 65%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.con1 .left .l3 button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.con1 .right {
+
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con1 .right img {
+    width: 500px;
+    margin-top: -300px;
+}
+
+
+.container3 {
+
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container3 .shop {
+
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.container3 .slide {
+
+    width: 95%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.container3 .slide .card {
+
+    width: 25%;
+    height: 40vh;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.241);
+    border-radius: 10px;
+}
+
+.container3 .slide .card .carimg {
+
+    width: 90%;
+    margin: auto;
+    height: 200px;
+}
+
+.container3 .slide .card .carimg img {
+    width: 100%;
+    height: 27vh;
+}
+
+.container3 .slide .card .buybtn {
+    margin-top: 10px !important;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 .slide .card .buybtn button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container4 {
+
+
+    height: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container4 .best_deals {
+
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.container4 .best_deals_card {
+
+    height: 60vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.container4 .best_deals_card .best_deals_cards {
+
+    width: 30%;
+    height: 60vh;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.container4 .best_deals_card .best_deals_cards .best_deals_cards_img {
+
+    width: 95%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container4 .best_deals_card .best_deals_cards .best_deals_cards_img img {
+    width: 400px;
+}
+
+.container4 .best_deals_card .best_deals_cards .details {
+
+    width: 95%;
+    margin: 10px auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container4 .best_deals_card .best_deals_cards .details #best_deal_p {
+    color: rgb(128, 128, 128);
+}
+
+.container4 .best_deals_card .best_deals_cards .details #best_deal_lorem {
+    font-weight: bold;
+}
+
+.container4 .best_deals_card .best_deals_cards .details #best_deal_lorem #best_deal_lorem_d {
+    color: gray;
+}
+
+.container4 .best_deals_card .best_deals_cards .add_to_cart {
+
+    width: 95%;
+    margin: 10px auto;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container4 .best_deals_card .best_deals_cards .add_to_cart button {
+    width: 350px;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container4 .best_deals_card .best_deals_cards .add_to_cart i {
+
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.container4 .best_deal_container {
+
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container4 .best_deal_container .best_deal_container_card {
+
+    width: 48%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.container4 .best_deal_container .best_deal_container_card img {
+    width: 690px;
+    height: 631px;
+
+}
+
+.container4 .best_deal_container .best_deal_container_card #holiday_deals {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.container4 .best_deal_container .best_deal_container_card #holiday_deals_Upto {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.container4 .best_deal_container .best_deal_container_card #holiday_deals_Upto_30 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.container4 .best_deal_container .best_deal_container_card #Seleted_Brands_For_You {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.container4 .best_deal_container .best_deal_container_card #holiady_btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.Most_Popular {
+
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Most_Popular .Most_Popular_Heading {
+
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.Most_Popular .Most_Popular_cards {
+
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card {
+
+    width: 28%;
+    height: 48vh;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_card_image {
+
+    width: 90%;
+    margin: 5px auto;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_card_image img {
+    width: 360px;
+    height: 206px;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_details {
+
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_details #Most_Popular_p {
+    color: rgba(128, 128, 128, 0.786);
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_details #Most_Popular_lorem {
+    font-weight: bold;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_details #Most_Popular_lorem_d {
+    color: rgba(128, 128, 128, 0.786);
+    font-weight: 300;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_btn {
+
+    width: 90%;
+    margin: auto;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_btn button {
+    width: 90%;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_btn i {
+
+    height: 40px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.container5 {
+    
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container5 .Every_Day_Essentials_heading {
+   
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.container5 .ed_cards {
+    
+    width: 95%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container5 .ed_cards .ed_card {
+   
+    width: 35%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid gray;
+
+}
+
+.container5 .ed_cards .ed_card .ed_card_left {
+  
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.container5 .ed_cards .ed_card .ed_card_left .ed_card_left_deatils {
+   
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container5 .ed_cards .ed_card .ed_card_left .ed_card_left_deatils #Weakend_Discount {
+    color: gray;
+}
+
+.container5 .ed_cards .ed_card .ed_card_left .ed_card_left_deatils #Weakend_Discount_Lorem {
+    font-weight: bold;
+}
+
+.container5 .ed_cards .ed_card .ed_card_left .ed_card_left_deatils #Weakend_Discount_Every_Day {
+    color: gray;
+}
+
+.container5 .ed_cards .ed_card .ed_card_left .ed_card_left_deatils button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container5 .ed_cards .ed_card .ed_card_right {
+  
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container5 .ed_cards .ed_card .ed_card_right img{
+    width: 220px;
+}
+
+
+footer{
+    background-color: black;
+    height: 40vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+footer .Footer_first{
+    
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .Footer_first #Footer_Lorem{
+    font-weight: bold;
+}
+
+footer .Footer_first .icons{
+  
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer .Footer_first .icons i{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .first {
+        display: none;
+    }
+
+    .swiper {
+        height: auto;
+    }
+
+    .swiper-slide {
+        height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        background-color: transparent;
+    }
+
+    .swiper-slide .con1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: auto;
+
+    }
+
+    .swiper-slide .con1 .left {
+
+        width: 100%;
+        height: 40vh;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        margin-bottom: 20px;
+    }
+
+    .l1 {
+        margin-top: 5px !important;
+
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .l2 {
+
+        width: 100% !important;
+    }
+
+    .l2 h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .l3 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper-slide .con1 .right {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .swiper-slide .con1 .right img {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .container3 {
+
+        background-color: rgba(128, 128, 128, 0.333);
+        height: auto;
+    }
+
+    .container3 .shop {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container3 .slide {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .container3 .slide .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .container3 .slide .card .buybtn {
+        margin-top: 0px !important;
+    }
+
+    .container4 {
+
+        height: auto;
+        margin-bottom: 20px !important;
+    }
+
+    .container4 .best_deals {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px !important;
+    }
+
+    .container4 .best_deals_card {
+
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container4 .best_deals_card .best_deals_cards {
+
+        width: 95%;
+    }
+
+    .container4 .best_deals_card .best_deals_cards .best_deals_cards_img img {
+        width: 340px;
+    }
+
+    .container4 .best_deal_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .container4 .best_deal_container .best_deal_container_card {
+        width: 100%;
+        position: relative;
+
+        height: auto;
+    }
+
+    .container4 .best_deal_container .best_deal_container_card img {
+        width: 90%;
+        height: 300px;
+    }
+
+    .container4 .best_deal_container .best_deal_container_card #holiday_deals {
+
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container4 .best_deal_container .best_deal_container_card #holiday_deals_Upto {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+
+    .container4 .best_deal_container .best_deal_container_card #holiday_deals_Upto_30 {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+
+    .container4 .best_deal_container .best_deal_container_card #Seleted_Brands_For_You {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+    }
+
+    .container4 .best_deal_container .best_deal_container_card #holiady_btn {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+    }
+
+    .Most_Popular {
+        height: auto;
+    }
+
+    .Most_Popular .Most_Popular_Heading {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Most_Popular .Most_Popular_cards {
+
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Most_Popular .Most_Popular_cards .Most_Popular_card {
+
+        width: 100%;
+    }
+
+    .Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_card_image img {
+        width: 350px;
+        height: 185px;
+    }
+
+    .Most_Popular .Most_Popular_cards .Most_Popular_card .Most_Popular_btn i {
+        width: 40px;
+    }
+
+    .container5{
+        
+        height: auto;
+    }
+
+    .container5 .Every_Day_Essentials_heading{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container5 .ed_cards{
+        
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container5 .ed_cards .ed_card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .container5 .ed_cards .ed_card .ed_card_left{
+       
+        width: 100%;
+        height: auto;
+    }
+
+    .container5 .ed_cards .ed_card .ed_card_right{
+       
+        width: 90%;
+        height: 35vh;
+    }
+
+    .container5 .ed_cards .ed_card .ed_card_right img{
+        height: 200px;
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    footer .Footer_first{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive .dropdown {
+        background-color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .topnav {
+        height: auto;
+        background-color: rgb(215, 215, 215);
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+        margin-left: 0px;
+        background: none;
+
+    }
+
+    .dropdown .dropbtn {
+        color: black;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .dropdown-content {
+        background-color: transparent;
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    #hr {
+        display: none;
+    }
+}

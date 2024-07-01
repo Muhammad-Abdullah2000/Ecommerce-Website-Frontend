@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkoutFirstContainer {
+  
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.checkoutFirstContainer .checkoutLEft {
+  
+    height: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkoutFirstContainer .checkoutRIght {
+ 
+    border-left: 1px solid gray;
+    height: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkoutFirstContainer .checkoutLEft .leftNav {
+   
+    height: auto;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.checkoutFirstContainer .checkoutLEft .leftNav .acc {
+
+    width: auto;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.checkoutFirstContainer .checkoutLEft .leftNav .acc button {
+    width: 100px;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkoutFirstContainer .checkoutLEft .shipping {
+    background-color: rgba(128, 128, 128, 0.337);
+    padding: 15px;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.shippingAddress {
+  
+    padding: 15px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.shippingAddress i {
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.checkoutForm {
+   
+    width: 95%;
+    margin: 10px auto;
+    height: auto;
+}
+
+.checkoutForm form {
+  
+    width: 95%;
+    margin: 10px auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkoutForm form .naming {
+ 
+    height: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+#option {
+    width: 48%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.checkoutForm form .naming input {
+    width: 48%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.checkoutForm form input {
+    width: 91.7%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.ShippingMethod {
+    
+    width: 91.7%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gift {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 15%;
+}
+
+.gift input {
+  
+    margin: 0.4rem;
+}
+
+.ShippingMethodd {
+   
+    width: 91.7%;
+    margin-top: 20px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.ShippingMethodd i {
+    font-size: 30px;
+}
+
+.ShippingMethodd p {
+    width: 90%;
+    text-align: justify;
+}
+
+.ShippingMethoddd {
+   
+    width: 91.7%;
+    margin-top: 20px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ShippingMethoddd button {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rightfirNav {
+  
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightfirNav p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.summary {
+  
+    width: 90%;
+    margin: 10px auto;
+    height: auto;
+}
+
+.summary .subtotal {
+  
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 350px;
+}
+
+.summary .subtotal table {
+    
+    width: 100%;
+
+}
+
+
+
+.summary .subtotal table tr th {
+    height: 100px;
+}
+
+.summary .subtotal table tr td {
+    text-align: center;
+    height: 100px;
+}
+
+.BagTotal {
+ 
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+}
+
+.BagTotal .sumamryHeading {
+ 
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+    height: 10vh;
+}
+
+.BagTotal .sumamryHeading p {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.sumamryHeading1 {
+    
+    margin: 5px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+    height: 5vh;
+}
+
+.sumamryHeading1 p {
+    color: green;
+}
+
+.itemsCheckout {
+   
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    height: 50vh;
+}
+
+.itemsCheckout .itemCheckoutCard{
+   
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.itemCheckoutCard img{
+    width: 180px;
+}
+
+.itemCheckoutCard .itemcheckoutdetails{
+  
+    width: 50%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.edit{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.edit p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.privacy{
+   
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    height: 10vh;
+}
+
+#que{
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .checkoutFirstContainer{
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    } 
+
+    .checkoutLEft{
+  
+        width: 100% !important;
+    }
+
+    .leftNav{
+    
+        width: 90% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+        flex-direction: row !important;
+        gap: 0px !important;
+    }
+
+    .leftNav h2{
+        font-size: 15px;
+    }
+
+    .leftNav .acc{
+      
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+        gap: 20px !important;
+        width: auto;
+    }
+
+    .leftNav .acc p{
+        font-size: 12px;
+    }
+
+  
+    .ShippingMethodd{
+     
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ShippingMethodd p{
+        margin-bottom: 10px;
+    }
+
+    .checkoutRIght{
+        width: 100% !important;
+       
+    }
+
+    .summary{
+       
+        width: 95% !important;
+    }
+
+    .subtotal{
+       
+        width: 100% !important;
+    }
+
+    table{
+      
+        width: 100% !important;
+    }
+
+    tr{
+      
+        font-size: 10px;
+    }
+
+    .BagTotal{
+      
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .sumamryHeading{
+        
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .itemsCheckout{
+      
+        height: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .itemCheckoutCard{
+      
+        height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+
+    }
+
+    .itemCheckoutCard img{
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .itemcheckoutdetails{
+       
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .edit{
+      
+        margin-bottom: 10px !important;
+    }
+
+    .privacy{
+      
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

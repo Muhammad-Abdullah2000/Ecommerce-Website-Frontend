@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./components.css">
+    <link rel="stylesheet" href="./checkout.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <div class="topnav" id="myTopnav">
+
+
+        <div class="first">
+            <div class="f1">
+                <h1>Store</h1>
+            </div>
+
+            <div class="f2">
+                <input type="search" placeholder="Search for a product">
+                <i class='bx bx-search'></i>
+
+            </div>
+
+            <div class="f3">
+
+                <div class="login">
+                    <i class='bx bx-user'></i>
+                    <a href="./SiginUp.html">
+                        <p>Login</p>
+                    </a>
+                </div>
+
+                <div class="favorite">
+                    <i class='bx bx-heart'></i>
+                    <p>Favorite</p>
+                </div>
+
+                <div class="cart">
+                    <i class='bx bx-cart'></i>
+                    <a href="./Cart.html">
+                        <p>Cart</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="index.html" class="dropbtn">All Categories</a>
+        </div>
+
+        <a href="./Prodcuts.html" class="active">Products</a>
+        <a href="./AboutUs.html">About Us</a>
+
+
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="checkoutFirstContainer">
+        <div class="checkoutLEft">
+            <div class="leftNav">
+                <h2>Check Out</h2>
+
+                <div class="acc">
+                    <p>Have An Account?</p>
+                    <button>Login</button>
+                </div>
+            </div>
+
+            <div class="shipping">
+                <p>SHIPPING</p>
+            </div>
+
+            <div class="checkoutForm">
+
+                <div class="shippingAddress">
+                    <p>Shipping Address</p>
+                    <i class='bx bx-question-mark'></i>
+                </div>
+
+                <form action="">
+                    <div class="naming">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Apt/ Suite/ Unit (optional)">
+
+                    <div class="naming">
+                        <input type="text" placeholder="City">
+                        <select name="" id="option">
+                            <option value="">Punjab</option>
+                            <option value="">Sindh</option>
+                            <option value="">Balochistan</option>
+                            <option value="">Kyber Pakhtunkwa</option>
+                            <option value="">Gilgit</option>
+                        </select>
+                    </div>
+
+                    <input type="text" name="" id="" placeholder="Postal code">
+
+                    <div class="ShippingMethod">
+                        <h4>SHIPPING METHOD</h4>
+                        <p>Enter a shipping address to see accurate shipping options for your order</p>
+                    </div>
+
+                    <div class="ShippingMethod">
+                        <h4>GIFTS OPTIONS</h4>
+
+                        <div class="gift">
+                            <input type="checkbox" id="horns" name="horns" />
+                            <label for="horns">Gift</label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="ShippingMethodd">
+                        <i class='bx bx-gift'></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, voluptas error. At
+                            corporis, accusamus officiis doloribus sint consequuntur nulla id.</p>
+
+                    </div>
+
+                    <div class="ShippingMethoddd">
+                        <button>Continue</button>
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+        <div class="checkoutRIght">
+            <div class="rightfirNav">
+                <p>Order Summary</p>
+            </div>
+
+           <div class="summary">
+                <div class="subtotal">
+                    <table>
+                        <tr>
+                            <th>SubTotal</th>
+                            <th>Taxes</th>
+                            <th>Shipping (2 items)</th>
+                        </tr>
+
+                        <tr>
+                            <td><b>$74.99 CDN</b></td>
+                            <td><b>------------</b></td>
+                            <td><b>------------</b></td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <h1>Total</h1>
+                            </th>
+                            <th>
+                                <h1><b>$74.99 CDN</b></h1>
+                            </th>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+             <div class="BagTotal">
+                <div class="sumamryHeading">
+                    <h3>Bag Summary</h3>
+                    <p>2</p>
+                </div>
+
+                <div class="sumamryHeading1">
+                    <p>Arrives in 4 - 7 days</p>
+                </div> 
+
+
+                <div class="itemsCheckout">
+                    <div class="itemCheckoutCard">
+                        <img src="./img1.jpg" alt="Product Image">
+
+                        <div class="itemcheckoutdetails">
+                            <p>Gamimg Laptop</p>
+                            <p>Lenovo ideapad 11th Generation</p>
+                            <p>Core i7 RTX 3050 6GB</p>
+                            <p>1 TB Nvme Backlit Keyboard</p>
+
+                            <div class="edit">
+                                <p>Edit</p>
+                                <p>Remove</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                   <div class="itemCheckoutCard">
+                        <img src="./img1.jpg" alt="Product Image">
+
+                        <div class="itemcheckoutdetails">
+                            <p>Gamimg Laptop</p>
+                            <p>Lenovo ideapad 11th Generation</p>
+                            <p>Core i7 RTX 3050 6GB</p>
+                            <p>1 TB Nvme Backlit Keyboard</p>
+
+                            <div class="edit">
+                                <p>Edit</p>
+                                <p>Remove</p>
+                            </div>
+                        </div>
+
+                    </div>           
+                </div>
+
+                 <div class="privacy">
+                    <p>Privacy Policy</p>
+                    <p>Terms and conditions</p>
+                    <p id="que">?</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+
+            <div class="icons">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-gmail'></i>
+            </div>
+
+
+        </div>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+        </div>
+
+        <div class="Footer_first">
+            <p id="Footer_Lorem">Lorem</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+            <p>Lorem, ipsum</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
